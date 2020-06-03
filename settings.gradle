@@ -1,0 +1,2 @@
+rootProject.name='Educational_game'
+include ':app'

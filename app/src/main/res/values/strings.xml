@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Educational_game</string>
+    <string name="Question">We test you few questions.</string>
+    <string name="img_description">img description</string>
+    <string name="Question_1">Cyclones spin in a clockwise direction in the southern hemisphere </string>
+    <string name="Question_2">Goldfish only have a memory of three seconds</string>
+    <string name="Question_3">Water is an example of a chemical element.</string>
+    <string name="Question_4">Brazil is the only country in the Americas to have the official language of Portuguese</string>
+    <string name="Question_5">The Channel Tunnel is the longest rail tunnel in the world</string>
+    <string name="Question_6">Electrons are larger than molecules.</string>
+    <string name="Question_7">The Atlantic Ocean is the biggest ocean on Earth.</string>
+    <string name="Question_8">The chemical make up food often changes when you cook it.</string>
+    <string name="Question_9">Sharks are mammals.</string>
+    <string name="Question_10">The human body has four lungs.</string>
+    <string name="Question_11">Atoms are most stable when their outer shells are full.</string>
+    <string name="Question_12">Filtration separates mixtures based upon their particle size.</string>
+    <string name="Question_13">Conductors have low resistance.</string>
+    <string name="Question_14">Molecules can have atoms from more than one chemical element.</string>
+    <string name="score_text">Score</string>
+</resources>

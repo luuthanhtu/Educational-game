@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="light_yellow">#bfc107</color>
+    <color name="high_score_bg_start_color">#94F16B</color>
+    <color name="high_score_bg_center_color">#542081</color>
+    <color name="high_score_bg_end_color">#542081</color>
+    <color name="main_bg_end_color">#E36D29</color>
+    <color name="main_bg_center_color">#FAEDED</color>
+    <color name="start_bg_center_color">#03FF79</color>
+    <color name="button_login">#CD62F5</color>
+</resources>

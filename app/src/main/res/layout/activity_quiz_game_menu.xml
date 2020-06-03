@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".quiz_game_menu">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/cyclone"
+        android:id="@+id/img_question"
+        android:contentDescription="@string/img_description"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+
+        android:background="@color/light_yellow"
+        android:layout_marginTop="30dp"
+        android:id="@+id/game_question"
+        android:text="Cyclones spin in a clockwise direction in the southern hemisphere">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/currentqus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Current question"
+            android:textSize="30sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/count_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="00:00"
+            android:textSize="30sp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/true_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_purple"
+            android:text="True" />
+
+        <Button
+            android:id="@+id/false_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="Falses" />
+
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextBtn"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:background="@android:color/holo_red_light"
+        android:src="@android:drawable/ic_media_next"
+        android:contentDescription="CickNext" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Your score"
+        android:textSize="40sp">
+
+    </TextView>
+
+
+</LinearLayout>

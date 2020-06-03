@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "949064621596",
+    "firebase_url": "https://educationalgame-1996a.firebaseio.com",
+    "project_id": "educationalgame-1996a",
+    "storage_bucket": "educationalgame-1996a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949064621596:android:d0500191df4cf108e709d9",
+        "android_client_info": {
+          "package_name": "com.example.educational_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949064621596-hd4k1ks43tc33263c4am14uaqvb0og2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.educational_game",
+            "certificate_hash": "31973cce30908c22b8f8e6770c090a2ef93d8259"
+          }
+        },
+        {
+          "client_id": "949064621596-aaekf2jtrpc05mbgvmb4fh2godulshhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJfPvOttw5Xc2InFYZif5nE7H3N8Htfmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949064621596-aaekf2jtrpc05mbgvmb4fh2godulshhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
