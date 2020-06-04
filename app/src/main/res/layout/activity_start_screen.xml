@@ -18,10 +18,10 @@
         android:padding="10dp"
         android:text="PLAY"
 
-        android:textStyle="bold"
         android:textColor="@android:color/black"
-
         android:textSize="25dp"
+
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -29,39 +29,39 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.282" />
 
-    <Button
-        android:id="@+id/login"
-        android:layout_width="120dp"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="96dp"
-        android:background="@drawable/button_login"
+        android:layout_marginTop="98dp"
+        android:layout_marginBottom="73dp"
+        app:layout_constraintBottom_toTopOf="@+id/Login_fac"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play_button"
+        android:id="@+id/entername"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/background_light"/>
+
+    <Button
+        android:id="@+id/Login_fac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_play"
         android:padding="10dp"
-        android:text="LOGIN"
+        android:text="with facebook"
+
         android:textColor="@android:color/black"
         android:textSize="25dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/play_button" />
 
 
-    <Button
-        android:id="@+id/register"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:background="@drawable/button_login"
-        android:padding="10dp"
-        android:text="REGISTER"
-        android:textColor="@android:color/black"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login"
-        app:layout_constraintVertical_bias="0.315" />
-    " />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
