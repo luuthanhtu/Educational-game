@@ -3,3 +3,4 @@ Mar 18 18:20:05 ubuntu gate[867]: org.pf4j.PluginRuntimeException: Failed to wri
 
 Mar 18 18:19:30 ubuntu gate[867]: 2021-03-18 18:19:30.499  WARN 867 --- [           main] org.pf4j.AbstractPluginManager           : No '/opt/gate/plugins' root
 
+https://github.com/spinnaker/spinnaker/issues/2165
