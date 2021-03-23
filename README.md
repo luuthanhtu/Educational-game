@@ -7,3 +7,4 @@ https://github.com/spinnaker/spinnaker/issues/2165
 https://github.com/PacktPublishing/Hands-On-Kubernetes-on-Azure---Second-Edition/issues/2
 helm repo add stable https://charts.helm.sh/stable
 https://thenewstack.io/getting-started-spinnaker-kubernetes/
+https://www.youtube.com/watch?v=9EUyMjR6jSc
