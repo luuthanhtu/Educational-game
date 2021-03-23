@@ -5,3 +5,4 @@ Mar 18 18:19:30 ubuntu gate[867]: 2021-03-18 18:19:30.499  WARN 867 --- [       
 
 https://github.com/spinnaker/spinnaker/issues/2165
 https://github.com/PacktPublishing/Hands-On-Kubernetes-on-Azure---Second-Edition/issues/2
+helm repo add stable https://charts.helm.sh/stable
